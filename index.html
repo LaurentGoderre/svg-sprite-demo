@@ -7,6 +7,9 @@
 		button {border:1px solid #999; border-radius:5px; background:linear-gradient(#fff, #ddd); padding:5px; font-size:105%;}
 		button:active {background:linear-gradient(#ddd, #fff);}
 		svg {margin-right:5px; vertical-align: text-top}
+
+		.cssmod svg {fill:#5880B8; stroke:#5880B8; stroke-width:4px; stroke-linejoin: round; stroke-linecap: round;}
+		.cssmod :active svg {fill:#334969; stroke:#334969; }
 	</style>
 </head>
 <body>
@@ -14,8 +17,14 @@
 	<p>This is a demo of using SVG to replace glyphicons in HTML markup. Unfortunalty, some major web engine do not support the basic functionality required for this to work. 
 		To view the example, use Firefox.
 	</p>
+
 	<button><svg role="img" aria-label="Menu" viewBox="-2 -2 26 26" height="20" width="20"><use xlink:href="icons.svg#menu"></svg>Menu</button>
 	<button><svg role="img" aria-label="Expand" viewBox="-2 -2 26 26" height="20" width="20"><use xlink:href="icons.svg#plus"></svg>Expand</button>
 	<button><svg role="img" aria-label="Collapse" viewBox="-2 -2 26 26" height="20" width="20"><use xlink:href="icons.svg#minus"></svg>Collapse</button>
+
+	<div class="cssmod">
+		<button><svg role="img" aria-label="Expand" viewBox="-2 -2 26 26" height="20" width="20"><use xlink:href="icons.svg#plus"></svg>Expand</button>
+		<button><svg role="img" aria-label="Collapse" viewBox="-2 -2 26 26" height="20" width="20"><use xlink:href="icons.svg#minus"></svg>Collapse</button>
+	</div>
 </body>
 </html>
