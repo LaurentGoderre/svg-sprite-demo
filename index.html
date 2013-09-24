@@ -10,6 +10,10 @@
 
 		.cssmod svg {fill:#5880B8; stroke:#5880B8; stroke-width:4px; stroke-linejoin: round; stroke-linecap: round;}
 		.cssmod :active svg {fill:#334969; stroke:#334969; }
+
+		.cssinclude button {padding-left:30px;}
+		.cssinclude .expand {background:url(icons.svg#plus) 5px center no-repeat;}
+		.cssinclude .collapse {background:url(icons.svg#minus) 5px center no-repeat;}
 	</style>
 </head>
 <body>
@@ -25,6 +29,13 @@
 	<div class="cssmod">
 		<button><svg role="img" aria-label="Expand" viewBox="-2 -2 26 26" height="20" width="20"><use xlink:href="icons.svg#plus"></svg>Expand</button>
 		<button><svg role="img" aria-label="Collapse" viewBox="-2 -2 26 26" height="20" width="20"><use xlink:href="icons.svg#minus"></svg>Collapse</button>
+	</div>
+
+	<h2>Future improvment</h2>
+	<p>Currently this is not supported by any browsers.</p>
+	<div class="cssinclude">
+		<button class="expand"></svg>Expand</button>
+		<button class="collapse">Collapse</button>
 	</div>
 </body>
 </html>
