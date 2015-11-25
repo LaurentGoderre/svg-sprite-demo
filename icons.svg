@@ -1,28 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="176" height="22.3">
-	<path id="plus" d="m 8.1,8.2 0,-8.2 6.3,0 0,8.2 7.7,0 0,6 -7.7,0 0,8.1 -6.3,0 0,-8.1 -8.1,0 0,-6 z"/>
-	<g transform="translate(22,0)">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+	<defs>
+		<path id="plus" d="m 8.1,8.2 0,-8.2 6.3,0 0,8.2 7.7,0 0,6 -7.7,0 0,8.1 -6.3,0 0,-8.1 -8.1,0 0,-6 z"/>
 		<rect id="minus" width="20.3" height="5.96" x="0.9" y="8.1" />
-	</g>
-	<g transform="translate(44,0)">
 		<path id="x" d="M 11,7.7 5,1.2 1,4.8 l 7,6.3 -7,6.1 4,3.8 6,-6.1 6.1,6.2 4,-3.9 -6,-6.2 6,-6.2 -4,-3.6 z"/>
-	</g>
-	<g transform="translate(66,0)">
 		<path id="ra" d="m 7.5,0.5 -3,3 7,7.6 -7,7.6 3,3 10,-10.6 -10,-10.6 z"/>
-	</g>
-	<g transform="translate(88,0)">
 		<use id="la" x="0" y="0" xlink:href="#ra" transform="matrix(-1,0,0,-1,22,22.2)" />
-	</g>
-	<g transform="translate(110,0)">
 		<use id="ua" x="0" y="0" xlink:href="#ra" transform="matrix(0,-1,1,0,-0.1,22.1)" />
-	</g>
-	<g transform="translate(132,0)">
 		<use id="da" x="0" y="0" xlink:href="#ra" transform="matrix(0,1,-1,0,22.2,0.1)" />
-	</g>
-	<g transform="translate(154,0)">
 		<path id="check" d="m 1,12.2 3,-3.6 5,4.6 9.1,-12.6 3,3 L 10,21.7 z"/>
-	</g>
-	<g transform="translate(176,0)">
 		<path id="menu" d="m 1,2.3 0,3.6 20.1,0 0,-3.6 -20.1,0 z m 0,7 0,3.6 20.1,0 0,-3.6 -20.1,0 z m 0,7 0,3.6 20.1,0 0,-3.6 -20.1,0 z"/>
-	</g>
+	</defs>
 </svg>
